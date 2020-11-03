@@ -29,8 +29,8 @@ public class PlayerWalking : StateMachineBehaviour
 
     private void SetPlayerDirection(float horizontalAxis, Transform playerTransform)
     {
-        if (Mathf.Abs(horizontalAxis) < 0.2) { return; }
-        if (horizontalAxis >= 0.2) playerTransform.localScale = new Vector3(1, playerTransform.localScale.y, playerTransform.localScale.z);
-        if (horizontalAxis <= -0.2) playerTransform.localScale = new Vector3(-1, playerTransform.localScale.y, playerTransform.localScale.z);
+        // if (Mathf.Abs(horizontalAxis) < 0.2) { return; }
+        // if (horizontalAxis >= 0.2) playerTransform.localScale = new Vector3(1, playerTransform.localScale.y, playerTransform.localScale.z);
+        // if (horizontalAxis <= -0.2) playerTransform.localScale = new Vector3(-1, playerTransform.localScale.y, playerTransform.localScale.z);
     }
 }
