@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     public float movementSpeed = 10.0f;
     public float climbSpeed = 10.0f;
-    public float jumpForce = 10.0f;
+    public float jumpForce = 20.0f;
 
     private bool isInLedgeTrigger;
 
@@ -68,10 +68,8 @@ public class PlayerController : MonoBehaviour
         float horizontalVelocity = GetHorizontalAxis();
 
         if (Mathf.Abs(horizontalVelocity) < 0.2) { return; }
-        if (horizontalVelocity >= 0.2) transform.rotation = Quaternion.AngleAxis(0, Vector3.up);
-        if (horizontalVelocity <= -0.2) transform.rotation = Quaternion.AngleAxis(180, Vector3.up);
-        // if (horizontalVelocity >= 0.2) transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
-        // if (horizontalVelocity <= -0.2) transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+        if (horizontalVelocity >= 0.2) transform.rotation = Quaternion.AngleAxis(25, Vector3.up);
+        if (horizontalVelocity <= -0.2) transform.rotation = Quaternion.AngleAxis(155, Vector3.up);
     }
 
     private bool isGrounded()
