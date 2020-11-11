@@ -68,8 +68,8 @@ public class PlayerController : MonoBehaviour
         float horizontalVelocity = GetHorizontalAxis();
 
         if (Mathf.Abs(horizontalVelocity) < 0.2) { return; }
-        if (horizontalVelocity >= 0.2) transform.rotation = Quaternion.AngleAxis(25, Vector3.up);
-        if (horizontalVelocity <= -0.2) transform.rotation = Quaternion.AngleAxis(155, Vector3.up);
+        if (horizontalVelocity >= 0.2) transform.rotation = Quaternion.AngleAxis(15, Vector3.up);
+        if (horizontalVelocity <= -0.2) transform.rotation = Quaternion.AngleAxis(165, Vector3.up);
     }
 
     private bool isGrounded()
