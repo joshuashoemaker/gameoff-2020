@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     public float movementSpeed = 10.0f;
     public float climbSpeed = 10.0f;
-    public float jumpForce = 20.0f;
+    public float jumpForce = 14.0f;
 
     private bool isInLedgeTrigger;
 
