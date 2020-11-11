@@ -1,0 +1,23 @@
+%% Mad Wonder standard CSV Lip Sync data file %%
+P,rest,0
+W,0.12,0.75,while
+P,AI,0.12
+P,WQ,0.225
+P,AI,0.4
+P,L,0.575
+W,0.75,0.81,the
+P,etc,0.75
+P,AI,0.772
+W,0.81,2.26,Filatov
+P,FV,0.81
+P,AI,0.965
+P,L,1.12
+P,AI,1.379
+P,etc,1.638
+P,O,1.793
+P,FV,2.104
+W,2.26,2.98,fourth
+P,O,2.387
+P,WQ,2.641
+P,etc,2.852
+P,rest,3.030204

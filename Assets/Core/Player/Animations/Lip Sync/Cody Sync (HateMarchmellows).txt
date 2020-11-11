@@ -1,0 +1,20 @@
+%% Mad Wonder standard CSV Lip Sync data file %%
+W,0,0.23,I
+P,AI,0
+W,0.23,0.39,knew
+P,etc,0.23
+P,U,0.283
+W,0.39,1.1,who
+P,AI,0.39
+P,U,0.626
+W,1.1,2.09,marshmallows
+P,MBP,1.1
+P,AI,1.178
+P,WQ,1.308
+P,etc,1.438
+P,MBP,1.516
+P,E,1.595
+P,L,1.725
+P,O,1.855
+P,etc,2.011
+P,rest,2.533877
