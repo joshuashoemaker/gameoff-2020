@@ -6,7 +6,32 @@ ModelImporter:
   - first:
       74: -623603649343465320
     second: Scene
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cody_Main
+    second: {fileID: 2100000, guid: 21a2677a4d8883a4cb9d10af8a3a242a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glasses
+    second: {fileID: 2100000, guid: 69e04354b36793e4999d031df97464bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 43d6bb0709526324284d333b2e66b56e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cody eye
+    second: {fileID: 2100000, guid: 68906bd19eed5404f84006a2e70ecb60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2100000, guid: e817ba81e8871b046af47e00a490d50d, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
